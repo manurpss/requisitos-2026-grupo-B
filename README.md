@@ -19,8 +19,6 @@ Ausência de autenticação do usuário (professores) com o projetor em tal sala
 
 ## 🗺️ Diagrama de Casos de Uso - Sistema GAC
 
-## 🗺️ Diagrama de Casos de Uso - Sistema CCT
-
 ```mermaid
 graph LR
     %% ----------------------------------------------------
@@ -33,26 +31,34 @@ graph LR
     %% ----------------------------------------------------
     %% FRONTEIRA DO SISTEMA (ESCOPO)
     %% ----------------------------------------------------
-    subgraph Box [Sistema de Gestão CCT]
+    subgraph Box [Sistema de Gestão GAC]
         %% Casos de Uso do Professor (Azul)
         UC1("Solicitar Reserva de Chave"):::azul
-        UC2("Solicitar Retirada de Projetor"):::azul
+        UC2("Solicitar Retirada de
+             Projetor"):::azul
         
         %% Casos de Uso da Secretária (Amarelo/Laranja)
         UC6("Cadastrar Sala do CCT"):::laranja
         UC7("Cadastrar Novo Projetor"):::laranja
 
         %% Casos de Uso do Atendente (Verde)
-        UC3("Registrar Retirada de Chave/Projetor"):::verde
-        UC4("Registrar Devolução de Chave/Projetor"):::verde
+        UC3("Registrar Retirada de
+             Chave/Projetor"):::verde
+        UC4("Registrar Devolução de
+            Chave/Projetor"):::verde
         
         %% Caso de Uso de Exceção/Defeito (Rosa/Vermelho)
         UC5("Reportar Defeito"):::rosa
+
+
     end
+
 
     %% ----------------------------------------------------
     %% LIGAÇÕES / RELACIONAMENTOS
     %% ----------------------------------------------------
+
+
     Prof --> UC1
     Prof --> UC2
 
@@ -77,7 +83,7 @@ graph LR
     classDef ator fill:#fffbe6,stroke:#d4b106,stroke-width:2px,color:#000;
 
     style Box fill:#f5f5f5,stroke:#d9d9d9,stroke-width:2px;
-    style Armazenamento fill:#fafafa,stroke:#d9d9d9;
+   
  ```
 
  ⚙️ Requisitos Não Funcionais (RNFs)
