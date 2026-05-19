@@ -13,7 +13,7 @@
 
 
 
-## 📌*Entrevista com o Kildary - Auxiliar Administrativo do CCT
+## 📌Entrevista com o Kildary - Auxiliar Administrativo do CCT
 Data: 23/04/26 as 18:24 até 19:00.*
 
 ✍Resumo Documentado
