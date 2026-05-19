@@ -91,6 +91,4 @@ graph LR
 * **RNF01 - Disponibilidade (Alta Prioridade):** O sistema deve operar com 99,5% de disponibilidade durante o horário letivo do CCT (segunda a sábado, das 07h às 22h).
 * **RNF02 - Desempenho (Alta Prioridade):** O tempo de resposta para o Atendente registrar uma retirada ou devolução no balcão deve ser menor que 2 segundos.
 * **RNF03 - Segurança e Permissões (Alta Prioridade):** O sistema deve ter controle de acesso restrito (RBAC). Professores não podem acessar funções de cadastro de salas ou de projetores.
-* **RNF04 - Integração (Alta Prioridade):** A autenticação de todos os usuários deve ser feita consumindo a API oficial da Unifor Online / DTEC.
-* **RNF05 - Usabilidade Mobile (Média Prioridade):** As telas voltadas para o Professor devem ser totalmente adaptadas para celulares (design responsivo) ou Web.
-* **RNF06 - Restrição Tecnológica (Média Prioridade):** O banco de dados deve ser obrigatoriamente Banco Firebase para garantir o histórico correto das chaves e armários.
+* **RNF04 - Usabilidade Mobile e Web (Média Prioridade):** As telas voltadas para o Professor devem ser totalmente adaptadas para celulares (design responsivo) e Web.
