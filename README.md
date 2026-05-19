@@ -13,12 +13,12 @@
 
 
 
-📌*Entrevista com o Kildary - Auxiliar Administrativo do CCT
+## 📌*Entrevista com o Kildary - Auxiliar Administrativo do CCT
 Data: 23/04/26 as 18:24 até 19:00.*
 
 ✍Resumo Documentado
 
-*Na locação dos projetores funciona por meio da solicitação e da aprovação do responsável (professores e atendentes), como também da devolução de preenchimento dos projetores e toda vez que um projetor está com defeito, é necessário que o mesmo seja trocado para uma funcionalidade boa dentro das salas, principalmente que seja avisado para secretaria do CTC. Dessa maneira, as chaves reservas também ficam com os professores após a devolução, para que possam utilizar as salas durante as aulas com os projetores adquiridos.*
+**Na locação dos projetores funciona por meio da solicitação e da aprovação do responsável (professores e atendentes), como também da devolução de preenchimento dos projetores e toda vez que um projetor está com defeito, é necessário que o mesmo seja trocado para uma funcionalidade boa dentro das salas, principalmente que seja avisado para secretaria do CTC. Dessa maneira, as chaves reservas também ficam com os professores após a devolução, para que possam utilizar as salas durante as aulas com os projetores adquiridos.**
 
 🚨Dores Identificadas
 
