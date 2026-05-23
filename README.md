@@ -47,44 +47,43 @@ graph LR
     subgraph Box [Sistema de Gestão GAC]
         %% Casos de Uso do Professor (Azul)
         UC1("Solicitar Reserva de Chave"):::azul
-        UC2("Solicitar Retirada de
-             Projetor"):::azul
+        UC2("Solicitar Retirada de<br>Projetor"):::azul
         
         %% Casos de Uso da Secretária (Amarelo/Laranja)
         UC6("Cadastrar Sala do CCT"):::laranja
         UC7("Cadastrar Novo Projetor"):::laranja
 
         %% Casos de Uso do Atendente (Verde)
-        UC3("Registrar Retirada de
-             Chave/Projetor"):::verde
-        UC4("Registrar Devolução de
-            Chave/Projetor"):::verde
+        UC3("Registrar Retirada de<br>Chave/Projetor"):::verde
+        UC4("Registrar Devolução de<br>Chave/Projetor"):::verde
         
         %% Caso de Uso de Exceção/Defeito (Rosa/Vermelho)
         UC5("Reportar Defeito"):::rosa
-
-
+        
+        %% Primeiro balão alterado para AZUL
+        UC8("Confirmar presencialmente a retirada<br>do projetor no sistema"):::azul
+        
+        %% Segundo balão alterado para LARANJA
+        UC9("Consultar retiradas locais de<br>projetores"):::laranja
     end
-
 
     %% ----------------------------------------------------
     %% LIGAÇÕES / RELACIONAMENTOS
     %% ----------------------------------------------------
-
-
     Prof --> UC1
     Prof --> UC2
+    Prof --> UC8
 
     Sec --> UC6
     Sec --> UC7
+    Sec --> UC9
 
     Atend --> UC3
     Atend --> UC4
     Atend --> UC5
 
     UC4 -.->|extend| UC5
-
-    
+   
     %% ----------------------------------------------------
     %% ESTILIZAÇÃO DE CORES (Estilo do Exemplo)
     %% ----------------------------------------------------
@@ -96,9 +95,7 @@ graph LR
     classDef ator fill:#fffbe6,stroke:#d4b106,stroke-width:2px,color:#000;
 
     style Box fill:#f5f5f5,stroke:#d9d9d9,stroke-width:2px;
-   
  ```
-
  ⚙️ Requisitos Não Funcionais (RNFs)
 
 * **RNF01 - Disponibilidade (Alta Prioridade):** O sistema deve operar com 99,5% de disponibilidade durante o horário letivo do CCT (segunda a sábado, das 07h às 22h).
